@@ -1,0 +1,44 @@
+:root {
+  --clr-primary-Light-red: hsl(0, 100%, 67%);
+  --clr-primary-Orangey-yellow: hsl(39, 100%, 56%);
+  --clr-primary-Green-teal: hsl(166, 100%, 37%);
+  --clr-primary-Cobalt-blue: hsl(234, 85%, 45%);
+
+  --clr-neutral-White: hsl(0, 0%, 100%);
+  --clr-neutral-Pale-blue: hsl(221, 100%, 96%);
+  --clr-neutral-Light-lavender: hsl(241, 100%, 89%);
+  --clr-neutral-Dark-gray-blue: hsl(224, 30%, 27%);
+
+  /* Gradients */
+    /* background */
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+    /* circle */
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  --ff-base: 'Hanken Grotesk', sans-serif;
+}
+/* ---------- Reset ---------- */
+*, *::before, *::after {box-sizing: border-box;}
+* {margin: 0;padding: 0;}
+body {line-height: 1.5;-webkit-font-smoothing: antialiased;}
+img, picture, video, canvas, svg {display: block;max-width: 100%;}
+input, button, textarea, select {font: inherit;}
+p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
